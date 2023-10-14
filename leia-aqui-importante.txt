@@ -1,0 +1,3 @@
+https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML
+
+Esse site contem toda a documentação sobre os dados de html possiveis.
