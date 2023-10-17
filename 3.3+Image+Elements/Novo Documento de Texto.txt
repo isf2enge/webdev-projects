@@ -1,0 +1,3 @@
+Importante acessar o picsum, que gera imagens aleatórias para teste.
+
+<img src='https://picsum.photos/'tamanho da imagem' alt='mais texto aqui-o alt serve para cegos'/>
