@@ -1,0 +1,103 @@
+*Observação,pratique com as atividades deste arquivo,assim você aprenderá.
+
+////////////////Curso de html.//////////////////////////////////////////////////////////////////////
+1-Como primeira etapa do aprendizado vai-se primeiro usar as extensões de utilização:
+	
+	*Primeiro vai usar o vscode
+	*Segundo vai baixar a extensão do vscode chamada de : https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server
+	* A terceira: https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server
+	* a quarta: https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server
+
+2-Com o ambiente preparado agora,usa-se os principios de criação iniciais:
+	
+	Abra o vscode, e coloque as tags <h1>Texto aqui</h1>:
+		
+		- esse simbolo '<>',se chama tag.E entre eles é o elemento.
+		-Outra coisa a se saber é que o 'h1' vai até o 'h6'.
+		-Outra coisa é que são para titulos,tenha isso em mente.
+		-Outra coisa é que o h1 só se usa uma vez, os que vem depois são h2 e sucessivamente. Isso é um bom costume de programação.
+3-Depois usa os parágrafos em html:
+	para estruturas de texto ou listas,usa-se a tag parágrafo: <p>Texto aqui</p>:
+	
+		-Esse tipo de estrutura,serve para organizar seu texto em parágrafos
+		-Mais uma coisa, como boa prática de programação,você gera textos aleatórios,para ver como fica a estrutura do seu site,que é o lipsum text.
+
+4-Parametros nulos e não nulos:
+	
+	-Uma coisa importante de mencionar,que quando tem-se tags que possuem duas tags,são não nulas.Quando tem-se tags,que é so uma,é nula.
+	-Uma estrutura geral de uma tag nula é: <tag + espaco+/>,isso é geral
+	-Existem dois tipos de tags <hr /> (horizontal reference),é basicamente uma linha que dividi dois parágrafos com estruturas literarias diferentes.
+	-E por ultimo a <br /> (break reference), elá quebra a linha para a próxima,esse tipo de estrutura é usada em parágrados únicos.
+	-Esse tipo de estrutura não pode ser usados para separar parágrafos, pois quem separa parágrafos são <p></p>.So pode ser usado em parágrafos unicos.
+
+
+5-Criação de listas:
+
+	
+	-Ainda no processo tem-se as listas,sendo dois tipos as ordenadas(ol) e desordenadas(ul)
+	
+	-As listas ordenadas,tem a seguinte configuração e desordenadas também:
+
+		<ul ou ol>
+			<li>Elemento aqui</li> #Isso aqui é o list item.
+			#Outra coisa importante de dizer, é que o list item fique sempre nessa forma: <li></li>,e com sua respectiva indentação.
+
+		</ul ou /ol>
+
+	-Outra coisa a se mencionar são listas dentro de listas:(respeitando sempre a indentação)
+		
+		<ul>
+			<li>Aqui vem o elemento. Primeiro esse elemento ai em baixo aparece o 'ol'
+			    <ol start = 5 #Indica que a sequencia comece apartir do numero '5'>
+				<li>Elemento aqui</li> #Seguindo essa ideia de estrutura.
+			    </ol>
+			</li>
+		</ul>
+
+	-Importante mencionar que o ul (so aparecem pontos em seus tópicos)
+	-o 'ol' só aparecem numeros
+
+6-Elementos ancora:
+		
+	-São estruturas basicamente dadas por:
+		<a+ espaco+tag+=+valor_da_tag>Texto aqui</a>
+
+	-Nesse processo,tem-se as estruturas href, que servem exatamente para direcionar para outras páginas no meu ambiente de trabalho.
+	-É importante que você crie as pastas dentro do ambiente de trabalho,desde pastas de imagens entre outros:
+		<a href="https://site-aqui-paraverelefuncionando.">Texto aqui</a> #É importante ter o https se quiser redirecionar a outros sites se não não pega.
+
+7-Gerar imagens:
+	
+	-<img src='picsum' alt='Descricao da imagem importante ter isso para cegos' height = "tamanho da imagem,geralmente sao 200 pixels "/>  #No quesito de imagens,é interessante você gerar suas próprias imagens no picsum.
+
+
+8-Caminhos:
+	
+	-Existem dois tipos de caminhos, o relativo e o absoluto:
+			
+		-Para o relativo faz-se './' ou '../', o caminho relativo é melhor que tem para o desenvolvimento,por ser o menor.
+		-Caminho absoluto: C://caminho-maior.
+
+
+9-Estrutura geral do html:
+
+<DOCTYPE html>
+<html lang = 'en (corresponde a leitura em ingles para os cegos)'>
+	<head> (o head trata-se de aspectos funcionais do site, questões de processamento e tal)
+
+		<meta charset="UTF-8">
+		<title>Titulo da pagina que aparece no canto superior esquerdo</title>
+	
+	</head>
+
+	<body> (/Aqui é onde se da a criação própriamente do site.Tudo o que o cliente verá)
+		<h1>Hello world</h1>
+	</body>
+</html>
+
+10-Compound projects:
+	Utilizados para realizar o projeto do cliente,do jeito que ele desejar.
+ 
+
+
+
