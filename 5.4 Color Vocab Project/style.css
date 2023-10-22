@@ -1,0 +1,33 @@
+*{
+    font-weight: normal;
+}
+
+img{
+
+    width: 200px;
+    height: 200px;
+}
+
+#red{
+
+    color: red;
+}
+
+h2[id = "blue"]{
+    color: blue;
+}
+
+#orange{
+
+    color: orange;
+}
+
+#green{
+
+    color: green;
+}
+
+#yellow{
+
+    color: yellow;
+}
