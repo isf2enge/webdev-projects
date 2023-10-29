@@ -1,0 +1,43 @@
+html{
+
+    background-color:black;
+    font-size: 16px;
+}
+
+h1[draggable = 'True']{
+
+   
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 650;
+}
+
+.p{
+
+    font-family: 'Noto Sans JP', sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: 500;
+
+}
+
+
+
+#imagen{
+
+    border: 5px solid white;
+    border-width: 0px 3px 3px 3px ;
+    width: 100%;
+
+
+
+}
+div{
+
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 6% ;
+}
