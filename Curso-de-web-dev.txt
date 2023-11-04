@@ -97,6 +97,230 @@
 
 10-Compound projects:
 	Utilizados para realizar o projeto do cliente,do jeito que ele desejar.
+
+
+
+//////////////////////////Curso-de-CSS
+
+11-O css ele dá enfeite ao html
+
+12-Existem três estilos de CSS:
+
+	inline:(dentro da tag) (indicado apenas para 1 elemento )
+		ex: <tag style="background: blue"></tag>
+
+	internal:(dentro do head) (indicado apenas quando trabalhar com uma pagina)
+		.	
+		.
+		.
+		<head>
+			<style>
+				h1{
+					background:color;
+				}
+	
+		</style>
+
+
+		</head>
+
+	external: (cria um arquivo chamado style.css) (indicado apenas quando trabalhar com varias paginas,ou uma também é o mais usado.)
+		#no html
+		<head>
+			<link href='./style.css' rel = 'stylesheet'> #Isso vai importar os arquivos do css
+		</head>
+		#no css
+		
+		h1{} #Json
+
+
+13-Tipos de Css específico do style.css:
+	
+	#No style.csss
+		
+		li{}
+		.nome-da-class{} #Usado em varios elementos
+		p[nome-da-variavel = 'algum-valor' #normalmente o nome é draggable.]{} #Usado em varios elementos
+		#main{} #estrutura identidade,ela só altera um elemento e não pode ser usado em mais de um elemento
+
+	#no body do html fica:
+		
+		<body>
+			<h1 class =  'nome-da-class nome-da-class2 #casoqueiraqueoarquivotenhamaisdeumaclassusaumespaço'></h1>
+			<p nome-da-variavel = 'algum-valor'></p>
+			<img src='' alt='' id = 'main-ou-outro-nome'> 
+
+	#Para os nomes das classes gerais colocadas,você coloca essas coisas no body do html.
+		</body>
+
+
+14-Parametros hexadecimais:
+	utilizados como rgba ou #15552221,indicando as cores para o css.
+
+15-Quando trabalha-se com textos tem-se os padrões de fontes básicos:
+
+		#no style.css
+			
+			p{
+				font-family: times new romas,sans serif
+				font-size: rem (altura em relação ao tamanho padrão do body ou html da fonte que eh 16 pixels)
+
+				text-align:center,left, etc.
+
+				font-weigth: ( de 100 a 900 ele trata do comprimento lateral)
+
+
+16-Para investigar uma pagina de css:
+		clica com o botao direito e em especionar depois na parte do style.css,e se quiser ter uma overview,
+		clica nos tres pontos em overviewcss,ai lá voce tera um resumo das cores utilizadas e tal.
+		-OBSERVAR TAMBEM SOBRE O PESTICIDE DO GOOGLE CHROME,PARA USALO CLICA NO BLOCO LÁ E SHIFT AI VOCE TERA O COMANDO ESPECIFICO USADO.
+
+					
+
+
+			}
+
+
+17-As tags de um html,são em caixas,tendo como principais propriedades:
+
+		#No style.css
+			div{
+				border: 10px solid black;
+				padding: 10px;
+				border-width: 10px 10px 10px 10px;
+				margin: 10px;
+				height:10px;
+				width:10px; 
+  
+
+			}
+
+		#O border é a borda da imagem, o padding é a distancia da borda interna até o centro da imagem, margin é apos a borda,
+		#height altura da imagem,e width é largura do mesmo.
+
+	
+		#quando se fala em caixas,se fala em div,e uma curiosidade se quiser ter uma relação de imagem e texto,usa-se o div dentro junto com o img e o p.
+
+
+18-No css,tem-se a ordem de preferencia,sendo:
+
+
+	#no style.css
+		
+		li{  color1
+		     color2
+		     color3
+			#Ele pega o color 3,ordem de baixo.}
+
+		li{
+			color4 #ele vai pegar aqui
+
+
+		}
+
+		
+	#No html:
+		inline
+		internal
+		external  #em criterio de escolha para o css ele vai pegar o inline como principal, ou o internal tb depende-la.
+
+	#No css:
+		li
+		.class
+		p[dragabble]
+		#id    #ele pega o id,por ordem de preferencia na seleçao dos elementos lá no html.
+
+
+
+19-Se tiver muitas tags, com mais de 2000 linhas,usa-se os seletores para pegar as informaçoes:
+
+
+	#no style.css
+		-estrutura pai filho:
+			div> p{json}
+		-estrutura descendente:
+			div img #ele pula gerações mais rapido, acessa a tag e já pula pra o topico desejado
+			div .class
+		-estrutura encadeada
+			tag-desejada.class#id{json} #Ele bota a tag desejada como li por exemplo e localiza o mesmo em funcao dos topicos requeridos lá,agora tomar cuidado quando no caminho nao botar uma tag que seja em comum na multidao ai da errado
+
+		-estrutura descendente encadeada
+			tag-de-entrada tag-do-caminho.outra-se-for-uma-class-por-exemplo #Aqui voce tem a tag de entrada e associado a isso uma tag em forma de encadeamento apontando as localizacoes desejadas.
+
+
+20-Posicoes relativas de um css:
+
+		#No style.css
+			div{
+				position: static #Posicao padrao
+				position: relative # baseado no static
+				positon: absolute #Baseada no relative e se nao tiver no canto superior esquedo da pagina
+
+				position: fixed (toma como referencia o canto superior esquerdo da pagina,e tambem ela acompanha conforme voce desce a imagem a absolute nao acompanha e nem a relative.por que eh em relacao a pagina da web e nao html).
+
+
+21: z-index, se for maior que zero o bloco fica na frente dos outros se for menor que 0 fica atras.
+
+22-Outro parametro é a estrutura de alinhamento dos blocos:
+	
+	#no css:
+
+		div{
+
+			display:inline #Ele fica todo em uma linha com outros blocos,mas não é dimensionavel
+			display:block #Ele fica so em uma linha,sendo portanto um paragrafo é dimensionavel
+			display: inline-block #Ele fica em uma linha com outros alinhados e é dimensionavel
+				
+
+		}
+
+			}
+
+
+23-Float é utilizado para circundar textos em torno de imagens:
+
+	#no css
+
+		div{
+			float: right ou left;
+
+
+		}
+
+		footh{
+
+			clear: right ou left ou both #caso tenha os dois ai usa o both.
+			} #um indicador de referencia,caso ele esteja dentro do bloco com texto lá usa-se o clear
+
+
+24-Para o ajuste de tela tem-se a media query, tal que você adapta o texto em padrões para pc,tablete e por ai vai:
+
+		#no css
+
+			@media (min-width:60px ) and (max-width:200px){
+
+
+				#COloca as tags de background e coisas em geral aqui.
+
+
+} #indica que é minimo é apartir de 60 px e o maximo eh ateh 200px	
+
+
+
+
+
+		#Para verificar os tipos de tela de uma media query vai no google chrome,mais ferramentas,e depois em telas.Ai voce ver em tempo real as modificacoes feitas.
+
+
+		#padroes de tela:
+			/**
+				TODO: Change the background color for each device
+				[lightsalmon] Mobile Devices: 319px — 480px
+				[powderblue] iPads and Tablets: 481px — 1200px
+				[limegreen] Laptops: 1201px — 1600px
+				[seagreen] Desktops: 1601px and more
+			**/
+		
  
 
 

@@ -1,0 +1,312 @@
+
+/**
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more
+**/
+
+
+
+
+
+
+
+
+  body{
+
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    background-color: #faf9f6;
+    margin: 50px 50px 0 50px;
+  
+   
+  }
+  #dev{
+  
+    color: rgb(247, 11, 11);
+    font-size: 3.5rem;
+    font-family: 'Lobster', sans-serif;
+  
+    
+    
+  }
+  
+  h1{
+    font-size: 5.3rem;
+  }
+  
+  h1> span{
+  
+    color:purple;
+  }
+  
+  
+  
+   #shape1{
+  
+    float: left;
+    margin-right: 50%;
+    margin-top: 0;
+    
+  
+    
+  
+   
+   
+    
+  
+    
+  
+  
+  }
+  
+  #shape2{
+  
+    float: right;
+  
+    margin-left: 50%;
+    margin-top: -19%
+    
+    }
+  
+  
+  
+  #shape1> img{
+  
+    width: 299.8px;
+    height: 200px;
+    float: left;
+    border: 20px solid transparent;
+    
+   
+   
+  }
+  
+  #shape2> img{
+  
+    width: 299.8px ;
+    height: 200px ;
+    float: left;
+    border: 20px solid transparent;
+    
+   
+  }
+  
+  p{
+  
+    font-weight:550;
+  }
+  
+  footer{
+  
+    clear:both;
+    color: blue;
+    text-align: right;
+  }
+
+
+
+@media (min-width:481px) and (max-width:1200px){
+
+  body{
+
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    background-color: #faf9f6;
+    margin: 50px 50px 0 50px;
+  
+   
+  }
+  #dev{
+  
+    color: rgb(247, 11, 11);
+    font-size: 3.5rem;
+    font-family: 'Lobster', sans-serif;
+  
+    
+    
+  }
+  
+  h1{
+    font-size: 5.3rem;
+  }
+  
+  h1> span{
+  
+    color:purple;
+  }
+  
+  
+  
+   #shape1{
+  
+    float: left;
+    margin-right: 50%;
+    margin-top: 0;
+    
+  
+    
+  
+   
+   
+    
+  
+    
+  
+  
+  }
+  
+  #shape2{
+  
+    float: left;
+  
+    margin-left: 1%;
+    margin-top: 3%;
+    
+    }
+  
+  
+  
+  #shape1> img{
+  
+    width: 299.8px;
+    height: 200px;
+    float: left;
+    border: 20px solid transparent;
+    margin-left: -5% ;
+    
+   
+   
+  }
+  
+  #shape2> img{
+  
+    width: 299.8px ;
+    height: 200px ;
+    float: left;
+    border: 20px solid transparent;
+    margin-left: -5% ;
+    
+   
+  }
+  
+  p{
+  
+    font-weight:550;
+  }
+  
+  footer{
+  
+    clear:both;
+    color: blue;
+    text-align: right;
+  }
+
+
+
+
+}
+
+
+@media (min-width:319px) and (max-width:480px){
+
+  body{
+
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    background-color: #faf9f6;
+    margin: 50px 50px 0 50px;
+  
+   
+  }
+  #dev{
+  
+    color: rgb(247, 11, 11);
+    font-size: 3.5rem;
+    font-family: 'Lobster', sans-serif;
+  
+    
+    
+  }
+  
+  h1{
+    font-size: 5.3rem;
+  }
+  
+  h1> span{
+  
+    color:purple;
+  }
+  
+  
+  
+   #shape1{
+  
+    float: left;
+    margin-right: 50%;
+    margin-top: 0;
+    
+  
+    
+  
+   
+   
+    
+  
+    
+  
+  
+  }
+  
+  #shape2{
+  
+    float: left;
+  
+    margin-left: 1%;
+    margin-top: 3%;
+    
+    }
+  
+  
+  
+  #shape1> img{
+  
+    width: 299.8px;
+    height: 200px;
+    float: left;
+    border: 20px solid transparent;
+    margin-left: -5% ;
+    
+   
+   
+  }
+  
+  #shape2> img{
+  
+    width: 299.8px ;
+    height: 200px ;
+    float: left;
+    border: 20px solid transparent;
+    margin-left: -5% ;
+    
+   
+  }
+  
+  p{
+  
+    font-weight:550;
+  }
+  
+  footer{
+  
+    clear:both;
+    color: blue;
+    text-align: right;
+  }
+
+
+
+
+}
