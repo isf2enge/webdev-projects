@@ -1,0 +1,4 @@
+Acesse esse site, para ver as variações do flexbox, na parte de flex layouts.
+
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/

@@ -63,5 +63,6 @@ footer {
     width: 100%;
     display: inline;
     object-fit: cover;
+    position: fi;
   }
 }

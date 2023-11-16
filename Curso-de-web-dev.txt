@@ -321,6 +321,108 @@
 				[seagreen] Desktops: 1601px and more
 			**/
 		
+
+
+
+
+//Curso-de-flex-box--------------------------------------------------------------------------------------------
+
+
+1-O Flex-box,é um tipo de display, e possui as mesmas designações de determinação do display.
+
+2-Outra coisa a se afirmar, é que quando trabalhar com o flexbox, precisa-se por todas as informações dentro de um conteiner.
+
+3-Estrutura geral do flex-box:
+
+	.conteiner{
+
+		display:flex ou inline-flex; #Por padrão as estruturas ficaram na forma 'row=linha'. Saiba que o inline-flex, ele é utilizado do mesmo jeito que o flex, mas a largura dos blocos, ficam na largura dos elementos dentro do conteiner.
+		gap:10px #Gap é utilizado para dar espaço entre os blocos no flexbox
+ 	
+	}
+
+
+4-Após declarado o flex, tem-se alguns padrões de estruturas a serem abordados:
+
+	no css:
+		
+		.conteiner{
+			display:flex;
+			gap:10px
+			flex-direction: column ou row #Esse padrão de estrutura faz com que o conteiner se posicione em linha ou em coluna.
+			
+
+		}
+
+		.conteiner> .item{
+
+			flex-basis:20px; #Aqui se o box estiver na horizontal,o box aumenta em largura,se estiver na vertical o box aumenta em altura.O flex-basis,só é
+			#utilizado em itens.
+
+		
+		}
+
+
+5-No padrão de flex-box, tem-se modelos de layout que modificam os **elementos do conteiner e  são dados por:
+		
+		-justify-content: Aqui basicamente, tem-se após **a declaração do display flex, dentro do conteiner, 
+		O deslocamento dos elementos, declarando a posição na horizontal
+
+		-align-items: essa estrutura ela, modifica os elementos na vertical e com os mesmos fundamentos da justify-content
+
+		-flex-wrap: aqui, determina-se a estrutura como wrep,tal que quando o conteiner fecha de mais sua largura,conforme fecha-se a tela do pc,
+		ela automaticamente passa o elemento para o outro lado do conteiner, aumentando-se assim o conteiner.
+
+		-align-content: ela trabalha de forma semelhante ao align-content, mas so funciona quando o flex-wrap está ativado.
+
+		-outra coisa, para trabalhar-se todas essas propriedades, é cruscial que o height do conteiner esteja em 100hcv.Ou voce olha o conteiner e ver se não está pequeno lá na hora.
+		
+		-qualquer duvidas acesse os conteudos de layout do flex na net.
+			.conteiner{
+				display:flex;
+				height:100vh; #altura utilizada para deixar o conteiner assertivo as propriedades do layout
+				flex-direction: column ou rom;
+				justify-content: center #Ele centraliza na vertical por estar o column ou na horizontal se tiver o row
+				flex-wrap: wrap; #adaptar ao movimento do conteiner e fazer o elemento ir para outra linha do conteiner
+				align-items: center #meche na vertical ou na horizontal se estiver com o flex-direction como column
+				align-content: center #Do mesmo jeito do align-items mas tem que ta ativo o flex-wrap.
+				
+
+
+			}
+
+
+
+6-No outro padrão tem-se o criterio de comprimento dos blocos, e portanto trabalha-se com os elementos de dentro do conteiner:
+		
+		width: esse ja sabe o que é, alterando-se dentro dos itens
+		flex-basis: esse determina o comprimento do elemento
+		max-width: esse determina um comprimento máximo em relaçao ao flex-basis.
+		min-width: esse determina um comprimento mínimo maior que ele. Tomando como base o flex-basis
+		flex-grow: esse determina que em relação ao comprimento padrão flex-basis, esse aumenta além do comprimento padrão.
+		flex-shrink: esse determina que em relação ao comprimento padrão flex-basis, esse diminui de comprimento.
+		flex: 1 1 20px, resumo com flex-grow;flex-shrink;width. Essa estrutura ela é a mais usada, portanto tem que saber.
+		flex: 1, resumo dessa de cima botando um valor pra tudo.
+		
+		*quando tem-se um flex-grow e flex-basis como 1, ele torna automaticamente o flex-basis como desconsideravel aumentando ou diminuido portanto.
+
+
+		.conteiner> item1{
+			
+			flex-basis: 20px  #Primeiro determina-se o flex basis, depois o resto
+			height:100vh	
+			max-width: 10px  #Como o flex basis é maior, o bloco ficará com 10 px, se fosse maior ficaria no padrão dos 20px
+			min-width: 5px  #Como é menos ele manter o padrão de altura do flex-basis.
+			flex-grow: esse determina que em relação ao comprimento padrão flex-basis, esse aumenta além do comprimento padrão.
+			flex-shrink: esse determina que em relação ao comprimento padrão flex-basis, esse diminui de comprimento.
+			flex: 1 1 20px, resumo com flex-grow;flex-shrink;width. Essa estrutura ela é a mais usada, portanto tem que saber.
+			flex: 1, resumo dessa de cima botando um valor pra tudo.
+			
+
+		}
+
+
+
  
 
 
