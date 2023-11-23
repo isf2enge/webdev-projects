@@ -1,0 +1,25 @@
+body{
+
+   
+    background-image: url("./cidade-de-cingapura-a-noite-1275x850.jpg");
+    
+}
+
+.container{
+    height: 100vh;
+    display:grid;
+   
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+#navbarr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+}
+

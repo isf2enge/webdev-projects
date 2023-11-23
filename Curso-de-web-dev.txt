@@ -423,6 +423,131 @@
 
 
 
+////////////////////////////////////////////////////////curso-de-css-grid//////////////////////////////
+
+**0.5-Observar que no css para coluna a estrutura se dimensiona em comprimento, enquanto para a linha será em altura
+
+1-O css grid é utilizado para deixar as estruturas das paginas mais responsivas. Todos eles são feitos no conteiner
+
+2-O css grid ele é bidirecional (trabalha com eixo x e y), enquanto que o css-flex trabalha no unidirecional vertical ou horizontal.
+
+3-A estrutura geral do css é dada por:
+	
+	#No css:
+		
+		.conteiner{
+
+			display:grid; #Declaração do grid
+			grid-template-columns: 1fr 1fr 1fr #Declaração das colunas da estrutura.
+			grid-template-arrow: 1fr 1fr 1fr #Declaração das linhas das estruturas.
+			gap: 10px #Distancia entre os blocos
+		}
+
+4-Descrição das estruturas de Layout:
+		
+		-Fixed:
+			grid-template-columns: 400px #São estruturas fixas, e portanto quando dimensionar a tela não regula-se os blocos.
+		
+		-minmax:
+			
+			grid-template-columns: 100px minmax(100px,400px) #Aqui o bloco distorce-se em **comprimento, assumindo o tamanho nesse domínio. Sendo as estruturas regulaveis
+
+		-fracionario:
+
+			grid-template-columns: 1fr 1fr 1fr #Aqui a estrutura é regulavel,tal que ele dividi a tela em partes iguais, conforme voce dimensiona a tela, estabelecendo-se o comprimento em **100vh do conteiner.
+			
+		-Auto:
+			grid-template-columns: 1fr 1fr auto # a estrutura converte o comprimento da coluna a apartir da 3 coluna até completar o tamanho do conteiner.
+
+		-repeat:
+			grid-template-columns: repeat(5,200px) #Ele coloca seis colunas com 200px, de forma a substituir tantas repetições.
+
+		-grid-auto-row:
+		
+			grid-auto-row: 20px #Caso tenha-se elementos restantes maiores do que os calculados na matriz, ele coloca o restante a baixo.
+
+
+5-Descrição do posicionamento de telas: (Ela faz as alterações diretamente nos itens do conteiner)
+
+		
+		#no css 
+		
+			.conteiner{
+				
+				display:grid;
+				
+				
+				
+			}
+
+			.conteiner> .item{
+				
+				grid-column: span 2 #Ele faz o box, assumir as duas partes da tela superior.
+
+				grid-column-start: -1 #Ele começa na linha do -1, #pra ver isso acesse o grid na inspeção do css na net.
+				
+				grid-column-end: +1 #Ele termina na linha +1.
+
+			 
+				
+				#essa combinação que você fez com os columns, faz com que o grid assuma os dois blocos da tela superior.
+
+				
+				grid-column-start 
+				grid-columns-end
+				grid-row-start
+				grid-row-end
+				#Esse conjunto de grids, defini a posição dos elementos no start e end, para ter uma precisão exata da colocação dos elementos
+
+				grid-aria: grid-row-start/grid-column-start/grid-row-end/grid-column-end; 
+
+			}
+
+///////////////////////////////Curso-de-bootstrap
+
+
+1-O que é o bootstrap? (ele é movido a base de class,observar isso.)
+
+R-É uma biblioteca, altamente padronizada para execução de produção de sites mais rápidos.
+
+2-Quando usar?
+
+R-Usa-se ele quando precisar entregar mais rápido conteudos, porém quando necessita-se de desenvolvimentos personalizados, o 
+mais indicado é o css normal mesmo.Ele possui muitos codigos sem explicaçao
+
+3-Qual sua estrutura básica em layout:
+
+Ele basicamente possui o container, uma div .row, e .colunas, de tal forma que são 12 colunas no total.
+
+estrutura:
+	no html:
+		
+		<div class = 'container'>
+			<div class='row'>
+				<div class='col-8-sm col-9-lg'> #Aqui basicamente indica 8 colunas ou 9 colunas ,para uma largura maior que 540 px ou 1000px, ele ira preencher 8 ou 9 colunas, mas quando for menor que 540px a div assume sem pocento da div row
+
+				</div>
+			</div>
+		</div>
+
+		#Existem varios tamanhos padronizados para a div,observar qual voce quer
+
+
+4-As tags basicas do bootstrap são:
+
+navbar,button,feater,footer,carrosel,heroes.
+
+
+5-para colocar no vs code faz:
+
+	bootstrap>os dois links cdn>o primeiro abaixo do title no head>o segundo acima da tag final no body>
+	APARTIR DAI voce escolhe o navbar que quer em examples ou na documentacao  do bootstrap>navbar>heroes(texto e botao)>feater(motivo de querer a pagina)>carrosel>footer>terminou a montagem do site e todo responsivo.
+
+						
+				
+
+
+
  
 
 
