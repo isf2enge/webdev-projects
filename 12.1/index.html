@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset = 'UTF-8'>
+		<title>My biography</title>
+		
+		
+
+		
+		<style>
+
+			@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@700&family=Hanken+Grotesk:wght@300&family=Libre+Baskerville&family=Lobster&family=Noto+Sans+JP&family=Smooch+Sans:wght@800&display=swap');
+			
+			body{
+
+				margin: 0;
+			}
+			.container{
+				width:auto;
+				height: 2943px;
+				display: grid;
+				grid-template-rows: 1fr 1fr 2fr 1fr;
+				margin: 0;
+			}
+
+			.first-back-ground{
+				
+				height: 1177.2px;
+				background: url('./estrelas.webp');
+    			animation: moveStars 100s linear infinite;
+				
+				font-family: 'Dancing Script', cursive;
+				font-size: 2.7rem;
+				color: white;
+				
+			}
+			.twinkling {
+    			height: 1177.2px;
+				width: 1400px;
+				background: url('./El-Universo_Planetas-en-el-Espacio_Fondos-de-Pantalla-del-Universo.jpg');
+    			animation: twinkling 5s linear infinite;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			
+			}
+
+
+			@keyframes moveStars {
+    			from { background-position: 0 0; }
+    			to { background-position: -10000px 5000px; }
+			}
+
+			@keyframes twinkling {
+    			0% { opacity: 1; }
+    			50% { opacity: 0.8; }
+    			100% { opacity: 1; }
+			}
+			.second-back{
+
+				height: 824.04px;
+				display: flex;
+				flex-direction: column;
+				justify-content: top;
+				align-items: center;
+				background: url('./estrelas.webp');
+    			animation: moveStars 100s linear infinite;
+				
+				text-align: center;
+				font-family: 'Dancing Script', cursive;
+				font-size: 2.7rem;
+				color: red;
+			}
+
+			.noia{
+				height: 1177.2px;
+				width: 1400px;
+				background: url('./astronoia.jpg');
+    			animation: noiaa 5s linear infinite;
+				display: flex;
+				flex-direction: column;
+				justify-content:flex-start;
+				align-items:flex-start;
+				
+
+			}
+
+			@keyframes noiaa {
+    			0% { opacity: 1; }
+    			50% { opacity: 0.8; }
+    			100% { opacity: 1; }
+			}
+
+			.three-back{
+				
+				height: 1350px;
+				background: url('./estrelas.webp');
+    			animation: moveStars 100s linear infinite;
+			}
+
+			.irineu{
+				height: 1350px;
+
+				background: url('./poeira-cosmica-1.jpg');
+    			animation: irineu 5s linear infinite;
+				display: flex;
+				flex-direction: column;
+				justify-content:center;
+				align-items:start;
+
+			}
+			@keyframes irineu {
+    			0% { opacity: 1; }
+    			50% { opacity: 0.8; }
+    			100% { opacity: 1; }
+			}
+
+			.four-back{
+
+				
+				height: 1500px;
+				display: grid;
+				
+			}
+
+			
+
+			.second-back img{
+
+				height: 200px;
+				border-radius: 100%;
+				opacity: 75%;
+				border: 3px solid black ;
+				
+
+				
+			}
+
+			#second p{
+
+				font-size: 2.4rem;
+				padding-left: 10px;
+				color: white;
+			}
+			#second> h2{
+
+				color: white;
+			}
+			.irineu{
+				color: white;
+				
+			}
+
+			.irineu> div{
+
+				font-size: 2rem;
+				margin-left: 100px;
+
+			}
+
+			.irineu img{
+				border-radius: 25%;
+				float: left;
+			}
+
+			.irineu p{
+
+				font-size: 1.5rem;
+				margin-left: 250px;
+			}
+
+			.coint{
+
+				display: flex;
+				flex-direction: column;
+				gap: 150px;
+				list-style-type: none;
+			}
+
+			.feater{
+				
+				
+				
+				background: url('./buraco-o-negro.jpg');
+				animation: feio 50s linear infinite alternate;  
+				
+			}
+
+			@keyframes feio {
+    			from { background-position: 0%; }
+    			to { background-position:  100%; }
+			}
+
+			
+
+			
+			
+
+			
+
+	
+
+			
+			
+			
+
+			
+
+			
+			
+
+			
+
+		
+
+
+
+
+
+
+
+
+    
+
+
+			
+		</style>
+		
+		
+		
+
+	</head>
+	<body>
+		<div class = 'container'>
+
+			<div class="first-back-ground">
+
+				<div class="twinkling">
+					<div id="main">
+
+						<h1>Eu sou Isaias</h1>
+						<p>Um grande desenvolvedor</p>
+	
+					</div>
+
+				
+				</div>
+
+				
+					
+
+				
+				
+				
+				
+				
+			</div>
+
+			<div class="second-back">
+
+				<div class="noia">
+					<div id="second">
+
+						<h2>Hello</h2>
+
+						<img src="./hacker.jpeg" alt="Hacker">
+						<p>Eu sou um desenvolvedor full-stack,<br />
+						e estou treinando para fazer ótimos trabalhos!.
+						</p>
+					</div>
+
+				</div>
+				
+
+			</div>
+
+			<div class="three-back">
+
+				<div class="irineu">
+					<div>
+						<h2>Skills</h2>
+						<ul class="coint">
+							<li>
+								<img src="https://picsum.photos/200" alt="Imagem aleatória">
+								<p>
+									I started learning to code when I was 25 years old, <br /> because I wanted to make my own video games. <br /> Over time, I have gained
+									a wealth of experience designing <br /> and developing mobile and web applications.
+									
+								</p>
+							</li>
+
+							<li>
+								<img src="https://picsum.photos/200" alt="Imagem aleatória">
+								<p>
+									I started learning to code when I was 25 years old, <br /> because I wanted to make my own video games. <br /> Over time, I have gained
+									a wealth of experience designing <br /> and developing mobile and web applications.
+									
+								</p>
+							</li>
+						</ul>
+						
+					</div>
+
+
+				</div>
+
+				
+			
+			</div>
+
+			<div class="four-back">
+
+				<div class="feater">
+
+					
+
+				</div>
+
+					
+
+				
+
+				
+
+			</div>
+			
+		
+			
+		</div>
+		
+	</body>
+</html>

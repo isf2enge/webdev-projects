@@ -543,11 +543,142 @@ navbar,button,feater,footer,carrosel,heroes.
 	bootstrap>os dois links cdn>o primeiro abaixo do title no head>o segundo acima da tag final no body>
 	APARTIR DAI voce escolhe o navbar que quer em examples ou na documentacao  do bootstrap>navbar>heroes(texto e botao)>feater(motivo de querer a pagina)>carrosel>footer>terminou a montagem do site e todo responsivo.
 
-						
-				
 
 
+/////////////////////////////////////////Curso-de-javascript
 
+
+1-Para criar um index na página da net faz o seguinte, vai em inspecionar depois em isnipets.(index.js)
+
+2-Criar mensagem em pop:
+	
+	alert("algo-aqui")  #Aparecerá em mensagem de alerta.
+
+3-Tipos:Number,string,boolean.
+
+4-Comando prompt para criar a variavel pelo usuario:
+	
+	var x = prompt("Digite algo: ")
+
+5-Concatenação:
+	alert("a"+" "+"C") #Ou até variaveis mesmo.
+
+6-Caso tenha str, em uma variavel:
+	
+	var.length #Da o numero de elementos na variavel.
+
+7-Se quiser imprimir os elementos em uma sequencia faz o seguinte:
+	
+	var.slice(1,5-1#Pois ele imprimi até o elemento final menos ele por ser em lista)
+
+8-Tipos aritmeticos:
+	x++,x--,x+=1,x-=1,a//b,a%b,a**b;
+
+9-Criando funcao:
+
+	function verbo+Substantivo(var x, var y){
+
+		return (algo aqui);
+	
+	};
+
+10-Para imprimir no terminal:
+	console.log(var a);
+
+11-Condicional:
+
+	if(condicao){
+		#Executaalgo
+	}
+	else{
+		#Casocantrarioexecutaisso
+	
+	}
+
+12-Executores lógicos:
+	
+	&&,||,>=,<=,!==,===,!negação.
+
+13-Lista:
+	var x = [1,2,3];
+
+14-Propriedades da lista:
+	
+	x.pop()#Remove ultimo elemento da lista
+	x.push(6) #Adiciona ao ultimo elemento da lista
+
+15-repetição:
+	var i = o;
+	while(i<10){
+		i++;
+		console.log(i);
+
+	};
+
+	for(var i =0,i<10,i++){
+
+		#eXECUTAALGO
+	
+	};
+
+16-Para acessar o html, tem-se:
+
+	*Inline:
+		<tag onload= "alert('Algoaqui');">
+
+	*Internal:
+		<script type = "text/javascript">
+			
+			alert("algoaqui");
+		</script>
+
+	
+	*External:
+		
+		<script src = "./index.js" charset="UTF-8">
+
+
+17-Arvore Dom, é a conversão do html para diagrama de blocos na internet=Diagrama de blocos.
+
+19-Para acessar o dom:
+	document.firstElementchild #Para acessar o html.lastElementchild #Paraacessaro body e por ai vai.
+
+20-As propriedades do objeto são as suas caracteristicas,enquanto os metodos são as funções do meu objeto:
+		
+		*document.queySelector("").innerHtml = "irniney" #Exemplot de propriedade,sofrento alteração
+		
+		*document.queySelector("").click() #Exemplo de metodo do object.
+
+
+21- Pode-se criar uma variavel para o caminho do objeto:
+		
+	var x = *document.queySelector("").innerHtml = "irniney";
+
+22-Tem-se os seletores para a arvore dom,mas tem-se os dois principais:
+		
+	*document.querySelector("mesmos-codigos-de-acesso-do-css-aqui")	
+	**document.querySelectorAll("seleciona os elementos mas a saida é uma array ai voce usa  "[]" para localizar o especifico")["numero da lista aqui"].innerHtml = "irniney";
+	#Por exemplo se tivesse em uma lista,seria mais de um e so o query simples nao conseguiria pegar toda ela,e o all pega os elementos por inteiro,facilitando no acesso com o uso do [].
+23-Para acessar as propridades no geral eh assim:
+
+	*document.queySelector("").style.nome-da-propriedade-sem-uso-desses-hifens.
+
+24-Para criar uma classe usando o javascript:
+		
+		*document.queySelector("").classList.add("adiciona-alguma-classe")>
+		Em seguida cria essa classe no style.css> em seguida coloca no terminal> *document.queySelector("").classList.toggleouremove("nome-da-tag-criada").>Pra-ficar-acessando-a-propriedade-ou-nao.	
+
+
+25-
+	*document.queySelector("").innerHtml #Resolvetagspuramentecomhtml,portanto as saidas sao envolvendo html.
+	**document.queySelector("").Contenttext #A saida sera so em texto mesmo.
+
+26-Atributos sao todas as tags inline fora a propria tag, como href etc.Para alterar propriedades das tags faz-se:
+	
+	**document.queySelector("").attributes #Para acessar as propriedades da minha tag>*document.queySelector("").getAttributes("Nome-da-tag-analisada") #Com isso voce acessa os valores do atributo desejado>
+	*document.queySelector("").setAttributes("Nome-da-tag-desejada","valor-na-tag-que-desejo-alterar").
+	
+	
  
 
 
