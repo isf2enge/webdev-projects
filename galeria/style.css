@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@700&family=Hanken+Grotesk:wght@300&family=Libre+Baskerville&family=Lobster&family=Noto+Sans+JP&family=Rubik+Glitch&family=Smooch+Sans:wght@800&display=swap');
+
+.body{
+
+    font-family: sans-serif;
+}
+
+.conteiner{
+    height: 200vh;
+    display: grid;
+    grid-template-rows: 4fr 2fr 4fr 1fr 2fr ;
+}
+
+.cor{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: white;
+}
+
+.navbarr{
+
+    position: relative;
+}
+
+
+.redd{
+    font-family:'Rubik Glitch';
+    position: absolute;
+    top: 0;
+    
+    height: 120px;
+    width: 270px;
+    background-color: rgb(0, 217, 255);
+    border-radius: 5%;
+    text-align: center;
+}
+
+.redd> h1{
+
+    font-size: 2rem;
+}
+
+
+.layoute{
+    height:80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.galeria{
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+.texto{
+
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 20px;
+    
+    
+}
+.galeria> img{
+    height: 40%;
+    flex-basis: 600px;
+    flex-shrink: 1;
+    border-radius: 2%;
+    object-fit: cover;
+     
+    
+  
+
+}
+
+li {
+    list-style-type: none; /*Para ocultar as bolas do list.*/
+  }
+
+
+
+
+@media (max-width:600px){
+
+    .redd{
+
+        color: rgb(36, 36, 37);
+        
+        height: 130px;
+        width: 70px;
+        
+    }
+
+    .redd> h1{
+        text-align: center;
+        font-size: 1.5rem;
+        
+    }
+
+    .layoute{
+
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+    }
+
+    
+
+    .galeria> img{
+
+        width: 20rem;
+
+    }
+
+        
+        
+      
+    
+    }
+    
+
+    
+    
+    
+
+
+
+
+
+
+

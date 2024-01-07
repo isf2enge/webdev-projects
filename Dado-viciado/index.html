@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dado-viciado</title>
+
+    
+    <style>
+
+       img{
+
+        border: 10px solid black;
+        border-radius: 10%;
+       }
+      
+
+       .container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+       }
+
+
+    </style>
+    <script type="text/javascript">
+        function sortearDado(){
+            
+            document.querySelectorAll(".imagemm")[0].setAttribute("src","./dado"+(Math.floor(Math.random() * 6) + 1)+".JPG")
+            document.querySelector(".imagemm2").setAttribute("src","./dado"+(Math.floor(Math.random() * 6) + 1)+".JPG")
+            
+        }
+
+
+    </script>
+
+</head>
+<body>
+    <div class="container">
+
+        <ul class="lista" style="display: none;" >
+            <li><img src="./dado1.JPG" alt="dado1" height="200px" ></li>
+            <li><img src="./dado2.JPG" alt="dado2" height="200px"></li>
+            <li><img src="./dado3.JPG" alt="dado3" height="200px"></li>
+            <li><img src="./dado4.JPG" alt="dado4" height="200px"></li>
+            <li><img src="./dado5.JPG" alt="dado5" height="200px"></li>
+            <li><img class="imag" src="./dado6.JPG" alt="dado6" height="200px"></li>
+        </ul>
+
+        <div >
+            <ul  style="display: flex; flex-direction: column; gap: 10px;">
+                <li><img class="imagemm" src="" alt="Dado-viciado" height="200px" ></li>
+                <li><img class="imagemm2" src="" alt="Dado-viciado" height="200px" ></li>
+            </ul>
+            
+            
+
+        </div>
+
+
+
+        <button onclick="sortearDado()">Sortear!</button>
+
+
+
+    </div>
+   
+    
+</body>
+</html>
