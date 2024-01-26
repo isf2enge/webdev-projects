@@ -11,12 +11,45 @@
     grid-template-rows: 4fr 2fr 4fr 1fr 2fr ;
 }
 
+
+
 .cor{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
     gap: 10px;
     color: white;
+}
+
+.lista{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    margin-left: 10px;
+
+}
+
+.lista img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.parte1{
+    
+    display: flex;
+    justify-content:space-around;
+    
+}
+.parte2{
+    
+    display: flex;
+    justify-content:space-around;
+    
 }
 
 .navbarr{
@@ -85,7 +118,60 @@ li {
 
 
 
-@media (max-width:600px){
+
+.irineu{
+
+    color: red;
+}
+
+
+
+
+
+.flexo{
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 12em;
+    border-radius: 5%;
+    width: 110%;
+    object-fit: cover;
+
+    
+}
+
+li{
+
+    height: fit-content;
+}
+
+.lista{
+   
+    margin-right: 10px;
+    
+    
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:600px){
 
     .redd{
 
@@ -95,6 +181,8 @@ li {
         width: 70px;
         
     }
+
+   
 
     .redd> h1{
         text-align: center;
@@ -118,12 +206,68 @@ li {
 
     }
 
+    
+
+    
+
+    
+
         
         
       
     
     }
-    
+
+    @media  (max-width:400px){
+
+        
+        .cor{
+
+            margin-left: 80px;
+        }
+
+
+
+
+    }
+    @media (min-width:600px) and (max-width:1008px){
+
+        .lista{
+            
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: 50px;
+            margin-left: 10px;
+            margin-top: -50px; 
+            margin-bottom: 500px;
+        
+        }
+        
+
+
+    }
+
+    @media  (max-width:599px){
+
+        .lista{
+            
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: 50px;
+            margin-left: 10px;
+            margin-top: -50px;
+            margin-bottom: 200px;
+            
+        
+        }
+        
+
+
+    }
+
+
 
     
     

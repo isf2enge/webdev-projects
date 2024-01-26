@@ -1,0 +1,145 @@
+@font-face {
+    font-family: Barrio;
+    src: url(./gamer_2/Gamer.ttf)
+  }
+  
+ 
+
+body{
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Barrio;
+    font-size: 1.5rem;
+    background: linear-gradient( 330deg,yellow 60% , green 60% );
+    height: 100vh;
+    
+}
+
+span{
+    color: red;
+}
+
+h1{
+    color: rgba(255, 255, 0, 0.938);
+    text-align: center;
+}
+
+ul{
+
+    margin-top: -20px;
+}
+
+p{
+    text-align: center;
+}
+
+.pinta{
+
+    border: 10px solid black;
+}
+
+
+li{
+   
+    list-style: none;
+    
+    height: 150px;
+    width: 150px;
+    max-width: 200px;
+   
+    
+    object-fit:cover;
+    border-radius: 5%;
+}
+
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+   
+    
+    
+    
+    
+}
+
+footer{
+
+    margin-left: auto;
+}
+
+
+
+.a{
+   
+    background-image: url("./fogo.jpg");
+    
+   
+}
+
+.b{
+
+    background-image: url("./manga.jpeg");
+   
+}
+
+.c{
+
+    background-image: url("./irineu.JPEG");
+    
+}
+
+.d{
+
+    background-image: url("./pai.JPEG");
+    
+}
+
+.irineu{
+
+    border: 10px solid red;
+}
+
+@media (max-width:415px){
+
+    h1{
+
+        margin-top: 50px;
+    }
+
+    ul{
+        margin-right: 40px;
+    }
+
+    li{
+   
+        list-style: none;
+        
+        height: 7rem;
+        width: 7rem;
+        
+       
+        
+        
+    }
+    
+
+   
+    footer{
+
+        margin-left: auto;
+        margin-top: 80px;
+    }
+
+
+
+}

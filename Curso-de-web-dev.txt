@@ -652,7 +652,7 @@ navbar,button,feater,footer,carrosel,heroes.
 
 21- Pode-se criar uma variavel para o caminho do objeto:
 		
-	var x = *document.queySelector("").innerHtml = "irniney";
+	var x = *document.querySelector("").innerHtml = "irniney";
 
 22-Tem-se os seletores para a arvore dom,mas tem-se os dois principais:
 		
@@ -661,7 +661,7 @@ navbar,button,feater,footer,carrosel,heroes.
 	#Por exemplo se tivesse em uma lista,seria mais de um e so o query simples nao conseguiria pegar toda ela,e o all pega os elementos por inteiro,facilitando no acesso com o uso do [].
 23-Para acessar as propridades no geral eh assim:
 
-	*document.queySelector("").style.nome-da-propriedade-sem-uso-desses-hifens.
+	*document.querySelector("").style.nome-da-propriedade-sem-uso-desses-hifens.
 
 24-Para criar uma classe usando o javascript:
 		
