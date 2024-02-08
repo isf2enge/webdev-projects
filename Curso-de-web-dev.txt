@@ -679,7 +679,76 @@ navbar,button,feater,footer,carrosel,heroes.
 	*document.queySelector("").setAttributes("Nome-da-tag-desejada","valor-na-tag-que-desejo-alterar").
 	
 	
- 
+/////////////////////////////////////Jquery/////
+
+
+01- Como representar o jquery:
+		$(".css")=jQuery(".css")=document.querySelector(".css")=document.querySelectorAll(".css");
+
+02-Para baixar o jQuery vai no site>e copia o link cdn google>e coloca acima da tag script do javascript do ultimo body>
+
+
+03-Para modificar css usando o jquery fica: 
+		
+		#$(".css").css("propriedade","valor-desejado")
+
+
+04-Para adicionar elementos no css fica:
+		#$(".css").add-ou-toglle-ou-removeClass(".a .b #Pode-se criar varias classes.")
+
+05-Para manipular texto:
+	
+	#$(".css").text("irineu")
+	#$(".css").html("bosta")
+
+
+06-Para mudar atributos:
+	
+	#$(".css").attr("propriedade","valor-da-propriedade")
+
+
+07-O addeventlistener em jquery:
+	#$(".css").on("metodo",function(){})
+
+08-Como fazer alterações externas:
+
+	#$(".css").before("<tag>comando-novo-aqui</tag>") #Comando em html antes da tag desejada <before><tag-desejada>
+	#$(".css").after("<tag>comando-novo-aqui</tag>") #Comando em html depois da tag desejada <tag-desejada><after>
+	#$(".css").preppend("<tag>comando-novo-aqui</tag>") #Comando em html dentro da tag desejada e antes do conteudo do texto  <tag-desejada><preppending>Conteudo</tag-desejada>
+	#$(".css").append("<tag>comando-novo-aqui</tag>") #Comando em html dentro da tag desejada e apos o conteudo do texto  <tag-desejada>Conteudo<appending></tag-desejada>
+	#$("h1").remove() #SE QUISER REMOVER ALGUMA TAG
+
+
+
+////////////////////////////////terminal-curso/////////// Gitbash ou windows terminal./////
+
+1-~(esta no comeco)
+
+2-cd (entra no arquivo)
+
+
+3-dir ou ls(mostra a lista)
+
+4-mkdir nome-do-diretorio (Cria um  diretorio especifico)
+
+5- touch nome-do-arquivo (cria um arquivo no diretorio,para gitbash)// type nul>  "nome-do-arquivo.txt" (para windows)
+
+6-para abrir o arquivo: start nome-do-arquivo (abre o arquivo para gitbash) // start nome-do-arquivo.txt (para windows)
+
+7-para deletar arquivos rm nome-do-arquivo (no gitbash)//erase nome-do-arquivo (para windows)
+
+8-para saber o caminho do seu diretorio  local basta usar pwd (no gitbash)
+
+9-para remover todos os elementos: rm * #Cuidado para usar isso em um diretorio,melhor evitar esse comando.
+
+10-Para remover diretorio:
+
+	rm -r nome-da-pasta (no gitbash) // no windows terminal: del nome-do-diretorio.
+
+
+
+		
+		
 
 
 

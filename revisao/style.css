@@ -1,0 +1,40 @@
+body{
+
+    height: 200vh;
+}
+
+
+
+
+#bosta{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,600px);
+    grid-template-rows: 100px auto minmax(500px,800px);
+}
+
+img{
+
+    height: 100px;
+    width: 100px;
+    grid-area: 1/2/2/3;
+    
+}
+
+.irineu{
+
+    color: blue;
+}
+
+.uy{
+
+    background-color: red;
+}
+
+.Boata{
+
+
+    background-color: red;
+}
+
+
